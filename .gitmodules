@@ -1,0 +1,11 @@
+
+[submodule "packages/inventory"]
+	path = packages/inventory
+	url = https://bitbucket.org/sgcdevelopment/genesis-inventory
+[submodule "packages/zizpicmodule"]
+	path = packages/zizpic
+	url = https://bitbucket.org/sgcdevelopment/genesis-zizpic.git
+[submodule "packages/zizpic"]
+	path = packages/zizpic
+	url = https://amit_nigam@bitbucket.org/sgcdevelopment/genesis.git
+

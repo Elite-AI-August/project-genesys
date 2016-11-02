@@ -1,0 +1,11 @@
+/vendor
+/storage
+/node_modules
+.env
+/nbproject
+/storage
+/storage
+/composer.lock
+/public/site_files/
+/public/user_files/
+/bootstrap/cache/

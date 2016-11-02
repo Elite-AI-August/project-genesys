@@ -1,0 +1,349 @@
+/*@charset "utf-8";
+ CSS Document 
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 980px) {
+}
+@media only screen and (max-width: 800px) {
+    .container{width:100%;}
+}
+@media only screen and (max-width: 767px) {
+    .fileUploadImg{ width:200px; margin-left:auto; margin-right:auto;}
+    .upImg{ padding-bottom:40px;}
+    .billingCode img{ margin-left:10px; margin-bottom:32px;}
+    .billingCode{ position:static; padding: 0 30px;}
+    .payment{ margin-top:36px; width:100%;}
+    .chooseOrder {
+        margin-bottom: 80px;
+    }
+    .shipAddress{ padding: 0;}
+    .billing h4{ margin-left: 30px;}
+    .payInfo{ padding: 0 30px; line-height: 40px;}
+
+
+
+
+}
+@media only screen and (max-width: 640px) {
+    .shipAddress{padding:0;}
+    .inptSec, .payment{width:100%;}
+
+    .inptSec {
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+
+    .billing .billingCode .codeInputSec{ padding:0;}
+    .inptSec label{position:static; text-align:left; display:block;}
+    .logo{position:static; width:100%; text-align:center;display: block;}
+    .zpForm h2{margin:20px 0;}
+    .billingCode{margin-left:0; width:100%;}
+    .billingCode img{float:none; margin-bottom:20px;}
+    .billingType{text-align:center;}
+    .bt{margin:14px auto 0; display:block;}
+
+    ul.cards li{display:inline-block;}
+    .inptSec label .lb_text{display:none;}
+    .inptSec label span {
+        position: absolute;color:#ce0000;
+        right: 15px;
+        top: 4px;
+    }
+    .placeholder_text input::-webkit-input-placeholder {opacity:1;}
+
+    .placeholder_text input:-moz-placeholder {  Firefox 18- 
+
+        opacity:1;
+    }
+
+    .placeholder_text input::-moz-placeholder {   Firefox 19+ 
+
+        opacity:1;
+    }
+
+    .placeholder_text input:-ms-input-placeholder {  
+
+        opacity:1;
+    }
+    .shipAddress .inptSec{ padding: 0 30px;}
+    .inptSec input::-webkit-input-placeholder {
+        font-size:16px;
+    }
+
+    .inptSec input:-moz-placeholder { 
+        font-size:16px;
+    }
+
+    .inptSec input::-moz-placeholder { 
+        font-size:16px;
+    }
+
+    .inptSec input:-ms-input-placeholder {  
+        font-size:16px;
+    }
+    
+
+
+}
+@media only screen and (max-width: 360px) {
+    .ShowSec .phone_order{ width: 133px;}
+}*/
+
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 980px) {
+}
+@media only screen and (max-width: 800px) {
+    .container{width:100%;}
+}
+@media only screen and (max-width: 767px) {
+    .fileUploadImg{ width:200px; margin-left:auto; margin-right:auto;}
+    .upImg{ padding-bottom:40px;}
+    .billingCode img{ margin-left:10px; margin-bottom:32px;}
+    .billingCode{ position:static; padding: 0 30px;}
+    .payment{ margin-top:36px; width:100%;}
+    .chooseOrder {
+        margin-bottom: 80px;
+    }
+    .shipAddress{ padding: 0;}
+    .billing h4{ margin-left: 30px;}
+    .payInfo{ padding: 0 30px; line-height: 40px;}
+
+    .zizpicArtist .col-sm-12{ padding: 0;}
+
+
+
+
+}
+@media only screen and (max-width: 640px) {
+    .chooseOrder{ font-size:32px;}
+    .shipAddress{padding:0;}
+    .shipAddress h3{  top:-18px;line-height:18px;}
+    .zizpicArtist.shipAddress h3::before{ bottom:0;}
+    .inptSec, .codeInputSec, .payment{width:100%;}
+    .inptSec label{position:static; text-align:left; display:block;}
+    .logo{position:static; width:100%; text-align:center;display: block; height:auto;}
+    .zpForm h2{margin:60px 0; font-size:50px;}
+    .billingCode{margin-left:0; width:100%; padding-top:12px;}
+    .billingCode img{float:none; margin-bottom:35px;}
+    .billingType{text-align:center;}
+    .bt{margin:14px auto 0; display:block;}
+
+    ul.cards li{display:inline-block;}
+    .inptSec label .lb_text{display:none;}
+    .inptSec label span {
+        position: absolute;color:#ce0000;
+        right: 8px;
+        top: 35px;
+        font-size:40px;
+    }
+    .placeholder_text input::-webkit-input-placeholder {opacity:1;}
+
+    .placeholder_text input:-moz-placeholder { /* Firefox 18- */
+
+        opacity:1;
+    }
+
+    .placeholder_text input::-moz-placeholder {  /* Firefox 19+ */
+
+        opacity:1;
+    }
+
+    .placeholder_text input:-ms-input-placeholder {  
+
+        opacity:1;
+    }
+    .shipAddress .inptSec{ padding: 0 30px;}
+    .inptSec input::-webkit-input-placeholder {
+        font-size:27px;
+    }
+
+    .inptSec input:-moz-placeholder { 
+        font-size:27px;
+    }
+
+    .inptSec input::-moz-placeholder { 
+        font-size:27px;
+    }
+
+    .inptSec input:-ms-input-placeholder {  
+        font-size:30px;
+    }
+
+
+    .fileUpload{ height:78px; line-height:78px; font-size:27px; margin-bottom:50px;}
+    .upImg input, .inptSec input, .codeInputSec input{ height:78px; font-size:27px;}
+    .codeInputSec input[type="submit"]{ width:140px; font-size:27px;}
+    .payInfo{ line-height:76px; font-size:32px;}
+    .zizpicArtist{ padding:0; margin-bottom:70px;  padding: 0 !important; }
+    .zizpicArtist .inptSec{ padding:0 30px;} 
+    .zizpicArtist h3, .threeWords, .upImgHD { position:relative; font-size: 27px;}
+    .zizpicArtist h3{ margin-bottom:45px;}
+    .upImgHD{ margin-bottom:37px;}
+    /*.upImgHD:after{ border-bottom: 1px solid #e0e0e0;
+        bottom: 17px;
+        content: "";
+        left: 0;
+        position: absolute;
+        width: 100%;}  */  
+    .zizpicArtist h3::before {    bottom: 12px;}
+    .note{ font-size:26px;}
+    .payInfo span{ font-size:27px;}
+    .payInfo span.itemPrice{font-size:32px;}
+    .billing h4{ font-size:28px;}
+    .payment{ margin-top:50px;}
+    .billingCode img{ height:63px; width:63px;}
+    .billing{ padding-top:30px;}
+    .inptSec input{ padding-left:30px; padding-right:30px;}
+    .upImg{ padding-bottom:30px;}
+    .upImg input{ margin-bottom:20px; padding-left:30px; padding-right:30px;}
+    .shipAddress .inptSec{ margin-bottom:20px;}
+    .zizpicArtist.shipAddress .billing h3::before{ bottom: 17px;}
+    .zizpicArtist .billing h3{ margin-bottom:20px; line-height:normal;}
+    .threeWords{ margin-bottom:30px;}
+    .cards{ padding:13px 20px;}
+    .cards li{ width:88px; margin-right:20px;}
+    .bt{ width:346px; height:84px;}
+    .billingType .btn-paypal{ height:84px; background:url(../images/paypal_big.png) center center no-repeat;}
+    .byPhone{ background-size:auto; background-position:48px 20px; font-size:37px; font-weight:bold;}
+    .byPhone a{ line-height:84px;}
+    .ShowSec p{ font-size:32px; margin-bottom:65px;}
+    .ShowSec .phone_order{ height:78px; font-size:32px; width:245px;}
+    .ShowSec .btn-success{ height:78px; font-size:32px;}
+    .zizpicArtist.shipAddress{ margin-bottom:0;padding-bottom: 100px;}
+    .billingType{ padding:50px 0;}
+    .upImgHD:after{ content:""; display:block; border-bottom:1px solid #cfd1d0; position:absolute; left:-15px; bottom:17px; width:100%;}
+    .upImgHD:before{ content:""; display:block; border-bottom:1px solid #cfd1d0; position:absolute; right:-15px; bottom:17px; width:100%;}
+    .upImgHD span.uiTxt{ color:#797979; }
+    .uIHD{ background:#fff; display:inline-block; position:relative; z-index:9; padding:0 22px;}
+    .has-js .label_radio{ padding-left:45px; min-height:37px;}
+    .has-js .label_radio, .has-js label.r_on{ background-size:auto;}
+    .zizpicArtist.shipAddress h3 { top:-17px; line-height:18px;}
+    .zizpicArtist.shipAddress h3 span{ top:0;}
+    .bt.by_paypal_payment a{ padding: 18px 0; line-height:normal;}
+
+    .he .has-js .label_radio{ padding-left: 0; padding-right: 45px;}
+    .he .billing h4{ margin-left:0; margin-right:30px !important; }
+    .zizpic3 .col-sm-4 { padding: 0 0 30px; }
+    /*newly added 01_09_2015*/
+    .logo{ width:170px; margin: auto;}
+    .zizpic3{ margin-bottom: 0;}
+    .zizpicArtist.shipAddress .billing h3{ margin-bottom: 0;}
+    .codeInputSec input{ padding-right: 150px;}
+    .he .zizpicArtist h3, .he .threeWords, .he .upImgHD{ font-size: 24px;}
+    .he .billingCode img{ margin-left: 0px; margin-right: 0;}
+}
+
+@media only screen and (max-width: 567px) {
+    //  .zpForm h2{ font-size:40px; margin:55px 0;}
+    .zpForm h2 { 
+        font-size: 50px;
+        margin: 50px 0;
+    }
+    .chooseOrder { font-size: 20px;}
+    .has-js .label_radio, .has-js label.r_on{ background-size:18px 18px;}
+    .has-js .label_radio{ padding-left:25px; min-height:18px;}
+    .chooseOrder span{ margin-right:10px;}
+    .zizpicArtist h3, .threeWords, .upImgHD { font-size: 27px;}
+    .uIHD{ padding:0 10px;}
+    .upImgHD::before, .upImgHD::after{ bottom:12px;}
+    .fileUpload{ font-size:20px; height:50px; line-height:50px; margin-bottom:35px;}
+    .upImg input{ padding-left:15px; padding-right:15px;}
+    .upImg input, .inptSec input, .codeInputSec input { font-size: 20px; height: 50px;}
+    .upImg input {
+        margin-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .zizpicArtist.shipAddress h3 {
+        line-height: 14px;
+        top: -15px;
+    }
+    .inptSec label span{ font-size:36px; top:18px;}
+    .inptSec input{ padding-left:15px; padding-right:15px;}
+    .note {
+        font-size: 16px;
+    }
+    .billingCode img {
+        height: 40px;
+        width: 40px;
+    }
+    .codeInputSec input[type="submit"] { font-size: 20px;}
+    .codeInputSec input{ padding-left:15px;}
+    .billing h4{ font-size:20px;}
+    .payInfo span {
+        font-size: 22px;
+    }
+    .payInfo span.itemPrice {
+        font-size: 30px;
+    }
+    .payInfo{ line-height:50px; font-size:20px;}
+    .bt{ width:262px; height:60px;}
+    .cards {
+        padding: 8px 14px;
+    }
+    .cards li {
+        margin-right: 17px;
+        width: 66px;
+    }
+    .billingType .btn-paypal{ height:58px; background-size: 120px auto;}
+    .byPhone a {
+        line-height: 58px;
+    }
+    .byPhone {
+        background-position: 30px 12px;
+        background-size: 12px auto;
+        font-size: 28px;}
+    .ShowSec p { font-size: 16px; margin-bottom: 40px;}
+    .billingType {
+        padding: 40px 0;
+    }
+    .ShowSec .phone_order, .ShowSec .btn-success {font-size: 16px; height: 50px;}
+
+    .inptSec input::-webkit-input-placeholder {
+        font-size:20px;
+    }
+
+    .inptSec input:-moz-placeholder { 
+        font-size:20px;
+    }
+
+    .inptSec input::-moz-placeholder { 
+        font-size:20px;
+    }
+
+    .inptSec input:-ms-input-placeholder {  
+        font-size:20px;
+    }
+
+    .chooseOrder {
+        margin-bottom: 60px;
+    }
+    .upImg {
+        padding-bottom: 40px;
+    }
+    /*.col-sm-4.bdr0 .upImg{ padding-bottom:0;}*/
+    .payment {
+        margin-top: 70px;
+    }
+    .billingCode img{ margin-bottom:20px;}
+    .zizpicArtist .billing h3{ margin-bottom:10px;}
+    .payment {
+        margin-top: 40px;
+    }
+
+
+    .he .has-js .label_radio{ padding-left: 0; padding-right: 22px;}
+
+    /*Newly Added 01_09_2015*/
+    .codeInputSec input[type="submit"]{ width:100px;}
+    .codeInputSec input{ padding-left: 10px; padding-right: 110px;}
+
+}
+
+@media only screen and (max-width: 360px) {
+    .ShowSec .phone_order{ width: 133px;}
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'rutz';
+    src: url("../fonts/Rutz_OE_regular_pro.eot");
+    src: url("../fonts/Rutz_OE_regular_pro.eot?#iefix") format("embedded-opentype"), url("../fonts/Rutz_OE_regular_pro.woff") format("woff"), url("../fonts/Rutz_OE_regular_pro.ttf") format("truetype"), url("../fonts/Rutz_OE_regular_pro.svg") format("svg");
+    font-weight: 400;
+    font-style: normal; }
